@@ -141,7 +141,7 @@ set(HERMESVM_ALLOW_HUGE_PAGES OFF CACHE BOOL
 
 # Note that smaller heap segments will lower the maximum number of properties
 # that can be stored in an object.
-set(HERMESVM_HEAP_SEGMENT_SIZE_KB 4096
+set(HERMESVM_HEAP_SEGMENT_SIZE_KB 16384
         CACHE STRING
         "Size of segments in the GC managed heap in KB. Must be a power of 2.")
 
